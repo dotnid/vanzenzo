@@ -1,0 +1,26 @@
+@keyframes fadeInAndOut {
+	0%,
+	30%,
+	100% {
+		opacity: 0;
+	}
+	10%,
+	20% {
+		opacity: 1;
+	}
+}
+
+@keyframes carousel {
+	100% {
+		translate: -50%;
+	}
+}
+
+@keyframes carousel-reverse {
+	0% {
+		translate: -50%;
+	}
+	100% {
+		translate: 0%;
+	}
+}
